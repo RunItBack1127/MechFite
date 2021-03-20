@@ -1,0 +1,42 @@
+.button {
+	-fx-border-style: solid outside;
+	-fx-border-color: black;
+}
+
+.title-button {
+	-fx-background-color: rgb( 220, 40, 40 );
+	-fx-text-fill: white;
+	-fx-font-family: 'Oblivious font';
+	-fx-font-size: 40;
+}
+
+.region-button {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+	-fx-font-family: 'Oblivious font';
+	-fx-font-size: 14;
+}
+
+#red-color-btn {
+	-fx-background-color: red;
+}
+
+#green-color-btn {
+	-fx-background-color: green;
+}
+
+#blue-color-btn {
+	-fx-background-color: blue;
+}
+
+#red-gradient-btn {
+	-fx-background-color: linear-gradient( to right, black, red );
+}
+
+#green-gradient-btn {
+	-fx-background-color: linear-gradient( to right, black, green );
+}
+
+#blue-gradient-btn {
+	-fx-background-color: linear-gradient( to right, black, blue );
+}
