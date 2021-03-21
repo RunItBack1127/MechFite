@@ -3,18 +3,57 @@
 	-fx-border-color: black;
 }
 
+.progress-bar {
+	-fx-border-style: solid outside;
+	-fx-border-color: black;
+}
+
+.progress-bar .bar {
+	-fx-background-insets: 0;
+}
+
+.hp-bar .bar {
+	-fx-background-color: red;
+	-fx-text-fill: black;
+	-fx-font-family: 'Oblivious font';
+	-fx-font-size: 20;
+}
+
+.sb-bar .bar {
+	-fx-background-color: blue;
+	-fx-text-fill: black;
+	-fx-font-family: 'Oblivious font';
+	-fx-font-size: 20;
+}
+
 .title-button {
 	-fx-background-color: rgb( 220, 40, 40 );
 	-fx-text-fill: white;
 	-fx-font-family: 'Oblivious font';
-	-fx-font-size: 40;
+	-fx-font-size: 50;
+}
+
+.options-button {
+	-fx-background-color: rgb( 20, 20, 20 );
 }
 
 .region-button {
 	-fx-background-color: black;
 	-fx-text-fill: white;
 	-fx-font-family: 'Oblivious font';
-	-fx-font-size: 14;
+	-fx-font-size: 30;
+}
+
+.mech-name {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+	-fx-font-family: 'Oblivious font';
+	-fx-font-size: 30;
+}
+
+.fight-points-button {
+	-fx-background-color: tan;
+	-fx-opacity: 0.5;
 }
 
 #red-color-btn {
